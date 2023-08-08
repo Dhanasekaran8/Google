@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To Search Value",
+        "description": "",
+        "id": "to-search-the-product-in-google-search-bar;to-search-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3880510000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Must Launch The \"chrome\" Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 22
+                }
+              ],
+              "location": "googlestep.user_Must_Launch_The_Browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5517251000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Must Launch The \"https://www.google.com/\" Url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com/",
+                  "offset": 22
+                }
+              ],
+              "location": "googlestep.user_Must_Launch_The_Url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 339730200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Must Search The Value \"Rose\" In Search Bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rose",
+                  "offset": 28
+                }
+              ],
+              "location": "googlestep.user_Must_Search_The_Value_In_Search_Bar(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Search The Product In Google Search Bar",
+    "description": "",
+    "id": "to-search-the-product-in-google-search-bar",
+    "keyword": "Feature",
+    "uri": "C:/Users/lashm/eclipse-workspace/Maven_Cucumber/src/test/java/com/feature/Google.feature"
+  }
+]
